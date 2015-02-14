@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT addressbook (contact*)>
+<!ELEMENT contact (name, address, phonedetails, email)>
+<!ELEMENT name (firstname, lastname | #PCDATA)> <!-- LHS person RHS organisation -->
+<!ELEMENT address (line1, line2, city, postcode, country)>
+<!ELEMENT phonedetails (home, work, fax, mobile | phone, fax)> <!-- LHS person RHS organisation -->
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+
+<!ELEMENT line1 (#PCDATA)>
+<!ELEMENT line2 (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT postcode (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+
+<!ELEMENT home (#PCDATA)>
+<!ELEMENT work (#PCDATA)>
+<!ELEMENT fax (#PCDATA)>
+<!ELEMENT mobile (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+
+<!ELEMENT email (#PCDATA)>

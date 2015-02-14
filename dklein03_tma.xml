@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addressbook>
+        <!-- This is a person example of entry -->
+	<contact>
+		<name>
+                    <firstname>John</firstname>
+                    <lastname>Smith</lastname>
+                </name>
+
+                <address>  
+                    <line1>20 Baker Street</line1>
+                    <line2>Marylebone</line2>
+                    <city>London</city>
+                    <postcode>NW13AU</postcode>
+                    <country>UK</country>
+                </address>
+
+                <phonedetails>   
+                    <home>02081234567</home>
+                    <work>02084567890</work>
+                    <fax>02089876543</fax>
+                    <mobile>07739165411</mobile>
+                </phonedetails>
+                
+                <email>example@example.com</email>
+	</contact>
+	
+        <contact>
+		<name>
+                    <firstname>Beth</firstname>
+                    <lastname>Levi</lastname>
+                </name>
+
+                <address>  
+                    <line1>11 Church Street</line1>
+                    <line2>Camden</line2>
+                    <city>London</city>
+                    <postcode>NW43AQ</postcode>
+                    <country>UK</country>
+                </address>
+
+                <phonedetails>   
+                    <home>02081234555</home>
+                    <work>02084567891</work>
+                    <fax>02079476543</fax>
+                    <mobile>07439165411</mobile>
+                </phonedetails>
+                
+                <email>beth@example.com</email>
+	</contact>
+        
+        <!-- This is an organisation example of entry -->
+	<contact>
+		<name>Big Yellow</name>
+                
+                <address>  
+                    <line1>25 Greek Street</line1>
+                    <line2>Marylebone</line2>
+                    <city>London</city>
+                    <postcode>NW14AS</postcode>
+                    <country>UK</country>
+                </address>
+                
+                <phonedetails>   
+                    <phone>02084587890</phone> <!-- must have 1 or both -->
+                    <fax>02089874543</fax>
+                </phonedetails>
+                
+                <email>big_yellow@example.com</email>
+	</contact>
+        
+</addressbook>
